@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDE0F1">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="298dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="140dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#E948AE"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="92dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#D45FEB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title"
+        app:layout_constraintStart_toStartOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="123dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#AD91E2"
+        android:text="@string/btn_back"
+        android:textColor="#1132E2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
